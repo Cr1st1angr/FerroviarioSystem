@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "cYhM9R1Ibuzjjm1f68SDhQJP1POOGUmMa17xj6D1Vfk=",
+  "Source": "API.Ferroviario",
+  "BasePath": "_content/API.Ferroviario",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

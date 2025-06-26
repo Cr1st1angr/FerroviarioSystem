@@ -1,0 +1,6 @@
+@API.Ferroviario_HostAddress = http://localhost:5088
+
+GET {{API.Ferroviario_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

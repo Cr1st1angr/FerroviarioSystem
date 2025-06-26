@@ -1,0 +1,36 @@
+C:\Users\user\OneDrive\Escritorio\3 Semestre\Herraientas de Programación\Sistema.Ferroviario\Ferroviaria.Consumer\bin\Debug\net8.0\Ferroviaria.Consumer.deps.json
+C:\Users\user\OneDrive\Escritorio\3 Semestre\Herraientas de Programación\Sistema.Ferroviario\Ferroviaria.Consumer\bin\Debug\net8.0\Ferroviaria.Consumer.dll
+C:\Users\user\OneDrive\Escritorio\3 Semestre\Herraientas de Programación\Sistema.Ferroviario\Ferroviaria.Consumer\bin\Debug\net8.0\Ferroviaria.Consumer.pdb
+C:\Users\user\OneDrive\Escritorio\3 Semestre\Herraientas de Programación\Sistema.Ferroviario\Ferroviaria.Consumer\obj\Debug\net8.0\Ferroviaria.Consumer.csproj.AssemblyReference.cache
+C:\Users\user\OneDrive\Escritorio\3 Semestre\Herraientas de Programación\Sistema.Ferroviario\Ferroviaria.Consumer\obj\Debug\net8.0\Ferroviaria.Consumer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\OneDrive\Escritorio\3 Semestre\Herraientas de Programación\Sistema.Ferroviario\Ferroviaria.Consumer\obj\Debug\net8.0\Ferroviaria.Consumer.AssemblyInfoInputs.cache
+C:\Users\user\OneDrive\Escritorio\3 Semestre\Herraientas de Programación\Sistema.Ferroviario\Ferroviaria.Consumer\obj\Debug\net8.0\Ferroviaria.Consumer.AssemblyInfo.cs
+C:\Users\user\OneDrive\Escritorio\3 Semestre\Herraientas de Programación\Sistema.Ferroviario\Ferroviaria.Consumer\obj\Debug\net8.0\Ferroviaria.Consumer.csproj.CoreCompileInputs.cache
+C:\Users\user\OneDrive\Escritorio\3 Semestre\Herraientas de Programación\Sistema.Ferroviario\Ferroviaria.Consumer\obj\Debug\net8.0\Ferroviaria.Consumer.dll
+C:\Users\user\OneDrive\Escritorio\3 Semestre\Herraientas de Programación\Sistema.Ferroviario\Ferroviaria.Consumer\obj\Debug\net8.0\refint\Ferroviaria.Consumer.dll
+C:\Users\user\OneDrive\Escritorio\3 Semestre\Herraientas de Programación\Sistema.Ferroviario\Ferroviaria.Consumer\obj\Debug\net8.0\Ferroviaria.Consumer.pdb
+C:\Users\user\OneDrive\Escritorio\3 Semestre\Herraientas de Programación\Sistema.Ferroviario\Ferroviaria.Consumer\obj\Debug\net8.0\ref\Ferroviaria.Consumer.dll
+C:\Users\user\Desktop\UTN HAROL\Sistema.Ferroviario\Ferroviaria.Consumer\bin\Debug\net8.0\Ferroviaria.Consumer.deps.json
+C:\Users\user\Desktop\UTN HAROL\Sistema.Ferroviario\Ferroviaria.Consumer\bin\Debug\net8.0\Ferroviaria.Consumer.dll
+C:\Users\user\Desktop\UTN HAROL\Sistema.Ferroviario\Ferroviaria.Consumer\bin\Debug\net8.0\Ferroviaria.Consumer.pdb
+C:\Users\user\Desktop\UTN HAROL\Sistema.Ferroviario\Ferroviaria.Consumer\obj\Debug\net8.0\Ferroviaria.Consumer.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\UTN HAROL\Sistema.Ferroviario\Ferroviaria.Consumer\obj\Debug\net8.0\Ferroviaria.Consumer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\UTN HAROL\Sistema.Ferroviario\Ferroviaria.Consumer\obj\Debug\net8.0\Ferroviaria.Consumer.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\UTN HAROL\Sistema.Ferroviario\Ferroviaria.Consumer\obj\Debug\net8.0\Ferroviaria.Consumer.AssemblyInfo.cs
+C:\Users\user\Desktop\UTN HAROL\Sistema.Ferroviario\Ferroviaria.Consumer\obj\Debug\net8.0\Ferroviaria.Consumer.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\UTN HAROL\Sistema.Ferroviario\Ferroviaria.Consumer\obj\Debug\net8.0\Ferroviaria.Consumer.dll
+C:\Users\user\Desktop\UTN HAROL\Sistema.Ferroviario\Ferroviaria.Consumer\obj\Debug\net8.0\refint\Ferroviaria.Consumer.dll
+C:\Users\user\Desktop\UTN HAROL\Sistema.Ferroviario\Ferroviaria.Consumer\obj\Debug\net8.0\Ferroviaria.Consumer.pdb
+C:\Users\user\Desktop\UTN HAROL\Sistema.Ferroviario\Ferroviaria.Consumer\obj\Debug\net8.0\ref\Ferroviaria.Consumer.dll
+C:\Users\user\OneDrive\Escritorio\Sistema.Ferroviario\Ferroviaria.Consumer\bin\Debug\net8.0\Ferroviaria.Consumer.deps.json
+C:\Users\user\OneDrive\Escritorio\Sistema.Ferroviario\Ferroviaria.Consumer\bin\Debug\net8.0\Ferroviaria.Consumer.dll
+C:\Users\user\OneDrive\Escritorio\Sistema.Ferroviario\Ferroviaria.Consumer\bin\Debug\net8.0\Ferroviaria.Consumer.pdb
+C:\Users\user\OneDrive\Escritorio\Sistema.Ferroviario\Ferroviaria.Consumer\obj\Debug\net8.0\Ferroviaria.Consumer.csproj.AssemblyReference.cache
+C:\Users\user\OneDrive\Escritorio\Sistema.Ferroviario\Ferroviaria.Consumer\obj\Debug\net8.0\Ferroviaria.Consumer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\OneDrive\Escritorio\Sistema.Ferroviario\Ferroviaria.Consumer\obj\Debug\net8.0\Ferroviaria.Consumer.AssemblyInfoInputs.cache
+C:\Users\user\OneDrive\Escritorio\Sistema.Ferroviario\Ferroviaria.Consumer\obj\Debug\net8.0\Ferroviaria.Consumer.AssemblyInfo.cs
+C:\Users\user\OneDrive\Escritorio\Sistema.Ferroviario\Ferroviaria.Consumer\obj\Debug\net8.0\Ferroviaria.Consumer.csproj.CoreCompileInputs.cache
+C:\Users\user\OneDrive\Escritorio\Sistema.Ferroviario\Ferroviaria.Consumer\obj\Debug\net8.0\Ferroviaria.Consumer.dll
+C:\Users\user\OneDrive\Escritorio\Sistema.Ferroviario\Ferroviaria.Consumer\obj\Debug\net8.0\refint\Ferroviaria.Consumer.dll
+C:\Users\user\OneDrive\Escritorio\Sistema.Ferroviario\Ferroviaria.Consumer\obj\Debug\net8.0\Ferroviaria.Consumer.pdb
+C:\Users\user\OneDrive\Escritorio\Sistema.Ferroviario\Ferroviaria.Consumer\obj\Debug\net8.0\ref\Ferroviaria.Consumer.dll

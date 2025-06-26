@@ -1,0 +1,6 @@
+﻿
+<form asp-action="UploadReceipt" method="post" enctype="multipart/form-data">
+    <input type="hidden" name="ticketId" value="@ViewBag.TicketId" />
+    <input type="file" name="receiptFile" accept="image/*" required />
+    <button type="submit">Subir Recibo</button>
+</form>

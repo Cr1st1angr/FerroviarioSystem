@@ -1,0 +1,50 @@
+﻿@using Modelos.Ferroviario.DTOS
+@model IEnumerable<Modelos.Ferroviario.Modelos.Schedule>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Horarios Disponibles</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.HoraSalida)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HoraLlegada)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ruta)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tren)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.HoraSalida)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HoraLlegada)
+            </td>
+            <td>
+                    @($"{item.Ruta.CiudadInicio} - {item.Ruta.CiudadDestino}")
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tren.Nombre)
+            </td>
+            <td>
+                @Html.ActionLink("Ver Vagones", "Index","Vagon", new { id = item.TrenId}) 
+
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

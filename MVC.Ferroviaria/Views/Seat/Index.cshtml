@@ -1,0 +1,59 @@
+﻿@model IEnumerable<Modelos.Ferroviario.Modelos.Seat>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Asientos</h1>
+
+<style>
+    .asiento-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); /* 4 asientos por fila */
+        gap: 10px;
+        max-width: 600px;
+        margin-top: 20px;
+    }
+
+    .asiento {
+        padding: 15px;
+        text-align: center;
+        border-radius: 10px;
+        font-weight: bold;
+        border: none;
+        text-decoration: none;
+    }
+
+    .disponible {
+        background-color: #28a745; /* verde */
+        color: white;
+    }
+
+    .ocupado {
+        background-color: #6c757d; /* gris */
+        color: white;
+        pointer-events: none;
+        cursor: not-allowed;
+    }
+</style>
+
+<div class="asiento-grid">
+    @foreach (var item in Model.OrderBy(s => s.Number))
+    {
+        if (item.IsAvailable)
+        {
+            @Html.ActionLink(
+                    "Asiento " + item.Number,
+                    "Create",
+                    "Ticket",
+                    new { id = item.Id },
+                    new { @class = "asiento disponible" })
+        }
+        else
+        {
+            <div class="asiento ocupado">
+                Asiento @item.Number
+            </div>
+        }
+    }
+</div>

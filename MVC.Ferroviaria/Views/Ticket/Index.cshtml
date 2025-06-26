@@ -1,0 +1,100 @@
+﻿@model IEnumerable<Modelos.Ferroviario.Modelos.Ticket>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Boletos Reservados</h1>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Cliente)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ruta)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Horario)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SeatId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaCompra)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PrecioFinal)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.estadoTicket)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Clase)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CategoriaPasajero)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Cliente.Nombre)
+                </td>
+                <td>
+                    @($"{item.Ruta.CiudadInicio} - {item.Ruta.CiudadDestino}")
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Horario.HoraSalida)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Asiento.Type)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FechaCompra)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PrecioFinal)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.estadoTicket)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Clase)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CategoriaPasajero)
+                </td>
+                @if (item.estadoTicket.Equals("Reservado"))
+                {
+                    <td>
+                        @Html.ActionLink("Pagar", "PagarTicket","Ticket", new { id=item.Id }) |
+                        @Html.ActionLink("Cancelar", "Cancelar","Ticket", new { id=item.Id }) |
+                    </td>
+                }
+                else if(item.estadoTicket.Equals("Pagado"))
+                {
+                    <td>
+                        @Html.ActionLink("Cancelar", "Cancelar","Ticket", new { id = item.Id }) |
+                    </td>
+                }else if (item.estadoTicket.Equals("Cancelado"))
+                {
+                    
+                }
+            </tr>
+}
+    </tbody>
+</table>
+@if (TempData["TicketMensaje"] != null)
+{
+    var tipo = TempData["TicketMensajeTipo"] ?? "info";
+    <div class="alert alert-@tipo alert-dismissible fade show" role="alert">
+        @TempData["TicketMensaje"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}

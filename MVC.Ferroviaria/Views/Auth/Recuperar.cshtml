@@ -1,0 +1,20 @@
+﻿@model Modelos.Ferroviario.DTOS.CorreoDTO
+@{
+    ViewData["Title"] = "Recuperar Contraseña";
+    Layout = "~/Views/Shared/_LayoutAuth.cshtml";
+}
+<h3 class="text-center mb-4">Recuperar Contraseña</h3>
+<form asp-action="Recuperar" method="post">
+    <div class="mb-3">
+        <label asp-for="Correo" class="form-label">Correo electrónico</label>
+        <input asp-for="Correo" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-warning w-100">Enviar Código</button>
+    @if (ViewBag.Mensaje != null)
+    {
+        <div class="alert alert-success mt-3">@ViewBag.Mensaje</div>
+        <div class="text-center mt-3">
+            <a asp-controller="Auth" asp-action="Restablecer" class="btn btn-outline-dark">Ir a Restablecer</a>
+        </div>
+    }
+</form>

@@ -1,0 +1,56 @@
+﻿@model IEnumerable<Modelos.Ferroviario.Modelos.TrainCar>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Vagones Disponibles</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+
+            <th>
+                @Html.DisplayNameFor(model => model.CantidadAsientos)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tipo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Estado)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tren)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CantidadAsientos)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tipo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Estado)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tren.Nombre)
+            </td>
+            <td>
+                @Html.ActionLink("Ver Asientos", "Index","Seat", new { id= item.Id }) |
+
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+@if (ViewBag.Mensaje != null)
+{
+    <div class="alert alert-success">
+        @ViewBag.Mensaje
+    </div>
+}

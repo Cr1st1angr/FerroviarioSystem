@@ -1,0 +1,132 @@
+﻿@using System.Security.Claims
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Tren Imbabura</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/MVC.Ferroviaria.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
+    <!-- Fuentes -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@600;700&display=swap" rel="stylesheet" />
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8f9fa;
+            color: #212529;
+        }
+
+        .navbar {
+            background-color: #ffffff !important;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        .navbar-brand, .nav-link, .dropdown-item {
+            color: #212529 !important;
+        }
+
+            .nav-link:hover, .dropdown-item:hover {
+                background-color: #e9ecef;
+                color: #000 !important;
+            }
+
+        .dropdown-menu {
+            background-color: #ffffff;
+            border: 1px solid #dee2e6;
+        }
+
+        footer {
+            background-color: #f8f9fa;
+            color: #6c757d;
+        }
+
+            footer p {
+                margin: 0;
+            }
+
+        .btn-logout {
+            background: none;
+            border: none;
+            color: #212529;
+            padding: 0;
+            text-align: left;
+            width: 100%;
+        }
+
+            .btn-logout:hover {
+                text-decoration: underline;
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light shadow-sm mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand fw-bold" asp-controller="Home" asp-action="Index">TREN IMBABURA</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Home" asp-action="Index">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Ruta" asp-action="Index">Ver Rutas</a>
+                        </li>
+                        @if (User.Identity?.IsAuthenticated == true)
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Ticket" asp-action="Index" asp-route-id="@User.FindFirst(ClaimTypes.NameIdentifier)?.Value">Ver mis Boletos</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    @User.Identity?.Name
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+                                    <li><span class="dropdown-item disabled">@User.FindFirst(ClaimTypes.Email)?.Value</span></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li>
+                                        <form asp-controller="Auth" asp-action="Logout" method="post" class="dropdown-item p-0">
+                                            <button type="submit" class="btn btn-logout">Cerrar sesión</button>
+                                        </form>
+                                    </li>
+                                </ul>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Auth" asp-action="Login">Iniciar sesión</a>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top mt-auto">
+        <div class="container text-center py-4">
+            <p class="mb-0">&copy; 2025 - Tren del Tayta Imbabura</p>
+            <p class="mb-0 small">Ofreciendo servicios ferroviarios desde el corazón de Imbabura</p>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

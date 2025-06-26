@@ -1,0 +1,26 @@
+﻿@model Modelos.Ferroviario.DTOS.LoginDTO
+@{
+    ViewData["Title"] = "Login";
+    Layout = "~/Views/Shared/_LayoutAuth.cshtml";
+}
+<h3 class="text-center mb-4">Bienvenido al Sistema Ferroviario</h3>
+<form asp-action="Login" method="post">
+    <div class="mb-3">
+        <label asp-for="Email" class="form-label">Correo electrónico</label>
+        <input asp-for="Email" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="Password" class="form-label">Contraseña</label>
+        <input asp-for="Password" type="password" class="form-control" />
+    </div>
+    <div class="d-flex justify-content-between mb-3">
+        <a asp-controller="Auth" asp-action="Recuperar">¿Olvidaste tu contraseña?</a>
+        <a asp-controller="Auth" asp-action="Register">Registrarse</a>
+    </div>
+    <button type="submit" class="btn btn-primary w-100">Entrar</button>
+
+    @if (ViewBag.Error != null)
+    {
+        <div class="alert alert-danger mt-3">@ViewBag.Error</div>
+    }
+</form>

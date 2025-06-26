@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Nuevo perfil",
+    "Projects": [
+      {
+        "Path": "API.Ferroviario\\API.Ferroviario.csproj",
+        "Action": "StartWithoutDebugging"
+      },
+      {
+        "Path": "MVC.Ferroviaria\\MVC.Ferroviaria.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

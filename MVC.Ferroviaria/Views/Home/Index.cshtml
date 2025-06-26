@@ -1,0 +1,77 @@
+﻿@using System.Security.Claims
+@{
+    ViewData["Title"] = "Inicio";
+}
+
+<!-- Hero Section -->
+<section class="py-5 text-center bg-light">
+    <div class="container">
+        <h1 class="display-5 fw-bold text-primary">Tren del Tayta Imbabura</h1>
+        <p class="lead text-muted mb-4">Disfruta del recorrido ferroviario más emblemático de la región.</p>
+        <img src="~/img/fondo.png" class="img-fluid rounded shadow-sm mb-4" alt="Tren del Tayta Imbabura" style="max-height: 400px; object-fit: cover;" />
+    </div>
+</section>
+<section class="py-5 text-center bg-light">
+    <div class="container">
+        <a asp-controller="Ticket" asp-action="PagarTicket" class="btn btn-primary px-4 py-2">
+            Comprar Boletos
+        </a>
+    </div>
+</section>
+<!-- Info Cards -->
+<section class="py-4">
+    <div class="container">
+        <div class="row justify-content-center g-4">
+            <!-- Horarios y Rutas -->
+            <div class="col-md-6">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card-body p-4">
+                        <h4 class="text-primary d-flex align-items-center">
+                            <i class="bi bi-train-front-fill me-2"></i> Horarios y Rutas
+                        </h4>
+                        <ul class="list-unstyled mt-3">
+                            <li><strong>Ruta 1:</strong> Ibarra → Antonio Ante</li>
+                            <li><strong>Ruta 2:</strong> Ibarra → Salinas</li>
+                            <li><strong>Días:</strong> Miércoles a Domingo</li>
+                            <li><strong>Horarios:</strong> 08:00, 12:00 y 15:00</li>
+                        </ul>
+                        <p class="text-muted">Viajes turísticos por la provincia con hermosos paisajes y cultura.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Compra de Boletos -->
+            <div class="col-md-6">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card-body p-4">
+                        <h4 class="text-primary d-flex align-items-center">
+                            <i class="bi bi-ticket-detailed-fill me-2"></i> Compra de Boletos
+                        </h4>
+                        <p>
+                            🎟️ Compra tus boletos en línea y asegura tu lugar en el tren.<br />
+                            💳 Aceptamos tarjetas de crédito y débito.
+                        </p>
+                        <p class="text-muted mb-0">
+                            Visita la sección de
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Ticket" asp-action="Index" asp-route-id="@User.FindFirst(ClaimTypes.NameIdentifier)?.Value">Mis Boletos</a>
+                            para revisar tus reservas.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Video Section -->
+<section class="py-5">
+    <div class="container">
+        <h3 class="text-center mb-4 text-primary">Conoce el recorrido</h3>
+        <div class="ratio ratio-16x9 shadow-lg">
+            <iframe src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/AlcaldiaIbarra/videos/1250108076472437/&show_text=0&autoplay=1"
+                    allowfullscreen
+                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+            </iframe>
+        </div>
+    </div>
+</section>

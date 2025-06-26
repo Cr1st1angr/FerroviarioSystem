@@ -1,0 +1,24 @@
+﻿@model Modelos.Ferroviario.DTOS.TokenDTO
+@{
+    ViewData["Title"] = "Restablecer Contraseña";
+    Layout = "~/Views/Shared/_LayoutAuth.cshtml";
+}
+<h3 class="text-center mb-4">Restablecer Contraseña</h3>
+<form asp-action="Restablecer" method="post">
+    <div class="mb-3">
+        <label asp-for="Token" class="form-label">Código</label>
+        <input asp-for="Token" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="NuevaContrasena" class="form-label">Nueva Contraseña</label>
+        <input asp-for="NuevaContrasena" type="password" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-danger w-100">Restablecer</button>
+    @if (ViewBag.Mensaje != null)
+    {
+        <div class="alert alert-info mt-3">@ViewBag.Mensaje</div>
+        <div class="text-center mt-3">
+            <a asp-controller="Auth" asp-action="Login" class="btn btn-outline-primary">Volver al Login</a>
+        </div>
+    }
+</form>

@@ -1,0 +1,37 @@
+﻿@model Modelos.Ferroviario.DTOS.RegisterDTO
+@{
+    ViewData["Title"] = "Registro";
+    Layout = "~/Views/Shared/_LayoutAuth.cshtml";
+}
+<h3 class="text-center mb-4">Registro de Cliente</h3>
+<form asp-action="Register" method="post">
+    <div class="mb-3">
+        <label asp-for="Nombre" class="form-label">Nombre</label>
+        <input asp-for="Nombre" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="Apellido" class="form-label">Apellido</label>
+        <input asp-for="Apellido" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="Email" class="form-label">Correo electrónico</label>
+        <input asp-for="Email" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="Telefono" class="form-label">Teléfono</label>
+        <input asp-for="Telefono" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="Password" class="form-label">Contraseña</label>
+        <input asp-for="Password" type="password" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="FechaNacimiento" class="form-label">Fecha de Nacimiento</label>
+        <input asp-for="FechaNacimiento" type="date" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-success w-100">Registrarse</button>
+    @if (ViewBag.Error != null)
+    {
+        <div class="alert alert-danger mt-3">@ViewBag.Error</div>
+    }
+</form>
