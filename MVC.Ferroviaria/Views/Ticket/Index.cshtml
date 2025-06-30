@@ -20,16 +20,19 @@
                 @Html.DisplayNameFor(model => model.Horario)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.SeatId)
+                Asiento
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.FechaCompra)
+                Número de Asiento
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.PrecioFinal)
+                Fecha Reserva
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.estadoTicket)
+                Precio Final
+            </th>
+            <th>
+                Estado Ticket
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Clase)
@@ -54,6 +57,9 @@
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.Asiento.Type)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Asiento.Number)
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.FechaCompra)

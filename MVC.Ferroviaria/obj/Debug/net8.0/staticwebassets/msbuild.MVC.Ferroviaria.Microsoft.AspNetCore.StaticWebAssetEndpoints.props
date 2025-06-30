@@ -60,6 +60,30 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ijuJJQMtS2Z0Jb4awG7/dJbwWCBwpiQHbBD4Lg1J\u002Bbc="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1837126"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022ijuJJQMtS2Z0Jb4awG7/dJbwWCBwpiQHbBD4Lg1J\u002Bbc=\u0022"},{"Name":"Last-Modified","Value":"Thu, 26 Jun 2025 14:18:04 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MVC.Ferroviaria/img/LogoPichincha.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\LogoPichincha.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-kw1s39a6k8vg1XJ/ZqIK02cRkf\u002BnE9YbREBENHbhUyM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"7781"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022kw1s39a6k8vg1XJ/ZqIK02cRkf\u002BnE9YbREBENHbhUyM=\u0022"},{"Name":"Last-Modified","Value":"Thu, 26 Jun 2025 16:24:47 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MVC.Ferroviaria/img/LogoPichincha.xfraheqcd9.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\LogoPichincha.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xfraheqcd9"},{"Name":"integrity","Value":"sha256-kw1s39a6k8vg1XJ/ZqIK02cRkf\u002BnE9YbREBENHbhUyM="},{"Name":"label","Value":"_content/MVC.Ferroviaria/img/LogoPichincha.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7781"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022kw1s39a6k8vg1XJ/ZqIK02cRkf\u002BnE9YbREBENHbhUyM=\u0022"},{"Name":"Last-Modified","Value":"Thu, 26 Jun 2025 16:24:47 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MVC.Ferroviaria/img/vagon.bcnxdmt9td.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\vagon.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"bcnxdmt9td"},{"Name":"integrity","Value":"sha256-lbbaDNmBE1TtUfaHTfE7mgBpEpbojI1vkt6uz\u002B1XuXM="},{"Name":"label","Value":"_content/MVC.Ferroviaria/img/vagon.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"553036"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022lbbaDNmBE1TtUfaHTfE7mgBpEpbojI1vkt6uz\u002B1XuXM=\u0022"},{"Name":"Last-Modified","Value":"Thu, 26 Jun 2025 16:42:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MVC.Ferroviaria/img/vagon.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\vagon.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-lbbaDNmBE1TtUfaHTfE7mgBpEpbojI1vkt6uz\u002B1XuXM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"553036"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022lbbaDNmBE1TtUfaHTfE7mgBpEpbojI1vkt6uz\u002B1XuXM=\u0022"},{"Name":"Last-Modified","Value":"Thu, 26 Jun 2025 16:42:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/MVC.Ferroviaria/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -767,54 +791,6 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ozkiv0k0t3"},{"Name":"integrity","Value":"sha256-PAZCAHMvg62xXajCpS/9MPbbi7JlZkv6fsok9UHhzSw="},{"Name":"label","Value":"_content/MVC.Ferroviaria/MVC.Ferroviaria.bundle.scp.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1133"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022PAZCAHMvg62xXajCpS/9MPbbi7JlZkv6fsok9UHhzSw=\u0022"},{"Name":"Last-Modified","Value":"Thu, 26 Jun 2025 14:18:03 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/MVC.Ferroviaria/uploads/13ea7a55-7565-4c79-be17-415da710b64d_Captura de pantalla 2025-02-22 180832.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\13ea7a55-7565-4c79-be17-415da710b64d_Captura de pantalla 2025-02-22 180832.png'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-1U6k/mXaAPGy1dC5zTgYquxKHE52SfzzwwM5\u002BBJcaW0="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"864247"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00221U6k/mXaAPGy1dC5zTgYquxKHE52SfzzwwM5\u002BBJcaW0=\u0022"},{"Name":"Last-Modified","Value":"Thu, 26 Jun 2025 14:18:05 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/MVC.Ferroviaria/uploads/13ea7a55-7565-4c79-be17-415da710b64d_Captura de pantalla 2025-02-22 180832.rorkwudfgk.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\13ea7a55-7565-4c79-be17-415da710b64d_Captura de pantalla 2025-02-22 180832.png'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"rorkwudfgk"},{"Name":"integrity","Value":"sha256-1U6k/mXaAPGy1dC5zTgYquxKHE52SfzzwwM5\u002BBJcaW0="},{"Name":"label","Value":"_content/MVC.Ferroviaria/uploads/13ea7a55-7565-4c79-be17-415da710b64d_Captura de pantalla 2025-02-22 180832.png"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"864247"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00221U6k/mXaAPGy1dC5zTgYquxKHE52SfzzwwM5\u002BBJcaW0=\u0022"},{"Name":"Last-Modified","Value":"Thu, 26 Jun 2025 14:18:05 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/MVC.Ferroviaria/uploads/466c8bd0-4246-4eda-834f-ecba371c0445_Captura de pantalla 2025-02-22 180832.nilbzfxysx.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\466c8bd0-4246-4eda-834f-ecba371c0445_Captura de pantalla 2025-02-22 180832.png'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"nilbzfxysx"},{"Name":"integrity","Value":"sha256-r3DOEWzz7vtrlaD0e0B4Z3C25Da6ViGH6buxS1K8pok="},{"Name":"label","Value":"_content/MVC.Ferroviaria/uploads/466c8bd0-4246-4eda-834f-ecba371c0445_Captura de pantalla 2025-02-22 180832.png"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"131072"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022r3DOEWzz7vtrlaD0e0B4Z3C25Da6ViGH6buxS1K8pok=\u0022"},{"Name":"Last-Modified","Value":"Thu, 26 Jun 2025 14:18:05 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/MVC.Ferroviaria/uploads/466c8bd0-4246-4eda-834f-ecba371c0445_Captura de pantalla 2025-02-22 180832.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\466c8bd0-4246-4eda-834f-ecba371c0445_Captura de pantalla 2025-02-22 180832.png'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-r3DOEWzz7vtrlaD0e0B4Z3C25Da6ViGH6buxS1K8pok="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"131072"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022r3DOEWzz7vtrlaD0e0B4Z3C25Da6ViGH6buxS1K8pok=\u0022"},{"Name":"Last-Modified","Value":"Thu, 26 Jun 2025 14:18:05 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/MVC.Ferroviaria/uploads/4c3070ae-183c-4de5-9605-ae8d5eef58b8_Captura de pantalla 2025-02-23 112606.6i41rswhx5.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\4c3070ae-183c-4de5-9605-ae8d5eef58b8_Captura de pantalla 2025-02-23 112606.png'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"6i41rswhx5"},{"Name":"integrity","Value":"sha256-8geIorAgeNn9WV9I6HgTPaXt\u002BFJ4yPp4Tsi8SBaLATo="},{"Name":"label","Value":"_content/MVC.Ferroviaria/uploads/4c3070ae-183c-4de5-9605-ae8d5eef58b8_Captura de pantalla 2025-02-23 112606.png"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"91221"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00228geIorAgeNn9WV9I6HgTPaXt\u002BFJ4yPp4Tsi8SBaLATo=\u0022"},{"Name":"Last-Modified","Value":"Thu, 26 Jun 2025 15:08:05 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/MVC.Ferroviaria/uploads/4c3070ae-183c-4de5-9605-ae8d5eef58b8_Captura de pantalla 2025-02-23 112606.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\4c3070ae-183c-4de5-9605-ae8d5eef58b8_Captura de pantalla 2025-02-23 112606.png'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-8geIorAgeNn9WV9I6HgTPaXt\u002BFJ4yPp4Tsi8SBaLATo="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"91221"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00228geIorAgeNn9WV9I6HgTPaXt\u002BFJ4yPp4Tsi8SBaLATo=\u0022"},{"Name":"Last-Modified","Value":"Thu, 26 Jun 2025 15:08:05 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/MVC.Ferroviaria/uploads/cdf18dd5-4827-4b98-8804-5c1b2a6f91fb_Captura de pantalla 2025-02-22 180832.nilbzfxysx.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\cdf18dd5-4827-4b98-8804-5c1b2a6f91fb_Captura de pantalla 2025-02-22 180832.png'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"nilbzfxysx"},{"Name":"integrity","Value":"sha256-r3DOEWzz7vtrlaD0e0B4Z3C25Da6ViGH6buxS1K8pok="},{"Name":"label","Value":"_content/MVC.Ferroviaria/uploads/cdf18dd5-4827-4b98-8804-5c1b2a6f91fb_Captura de pantalla 2025-02-22 180832.png"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"131072"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022r3DOEWzz7vtrlaD0e0B4Z3C25Da6ViGH6buxS1K8pok=\u0022"},{"Name":"Last-Modified","Value":"Thu, 26 Jun 2025 14:18:05 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/MVC.Ferroviaria/uploads/cdf18dd5-4827-4b98-8804-5c1b2a6f91fb_Captura de pantalla 2025-02-22 180832.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\cdf18dd5-4827-4b98-8804-5c1b2a6f91fb_Captura de pantalla 2025-02-22 180832.png'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-r3DOEWzz7vtrlaD0e0B4Z3C25Da6ViGH6buxS1K8pok="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"131072"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022r3DOEWzz7vtrlaD0e0B4Z3C25Da6ViGH6buxS1K8pok=\u0022"},{"Name":"Last-Modified","Value":"Thu, 26 Jun 2025 14:18:05 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>

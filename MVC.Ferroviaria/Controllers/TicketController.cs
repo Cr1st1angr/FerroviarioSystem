@@ -71,21 +71,20 @@ namespace MVC.Ferroviaria.Controllers
             var horarioId = TempData["HorarioId"] != null ? (int)TempData["HorarioId"] : 0;
 
             var horario = Crud<Schedule>.GetById(horarioId);
-            CalculadoraPrecioAdultoMayor calculadora = new CalculadoraPrecioAdultoMayor();
-            ClaculadoraPrecioAdulto calculadoraAdulto = new ClaculadoraPrecioAdulto();
-            ClaculadoraPrecioKid calculadoraKid = new ClaculadoraPrecioKid();
-            BoletoEconomico boletoEconomico = new BoletoEconomico();
-            BoletoPreferencial boletoPreferencial = new BoletoPreferencial();
+
             double precio = 0;
 
             if (data.CategoriaPasajero.Equals("Adulto"))
             {
+                ClaculadoraPrecioAdulto calculadoraAdulto = new ClaculadoraPrecioAdulto();
                 precio = calculadoraAdulto.CalcularPrecio();
             }else if(data.CategoriaPasajero.Equals("Tercera Edad"))
             {
+                CalculadoraPrecioAdultoMayor calculadora = new CalculadoraPrecioAdultoMayor();
                 precio = calculadora.CalcularPrecio();
             }else if (data.CategoriaPasajero.Equals("Niño"))
             {
+                ClaculadoraPrecioKid calculadoraKid = new ClaculadoraPrecioKid();
                 precio = calculadoraKid.CalcularPrecio();
             }
             
@@ -95,6 +94,7 @@ namespace MVC.Ferroviaria.Controllers
 
                 if (data.Clase.Equals("Economica"))
                 {
+                    BoletoEconomico boletoEconomico = new BoletoEconomico();
                     ticket = boletoEconomico.CrearBoleto(
                         int.Parse(User.FindFirst(ClaimTypes.NameIdentifier)?.Value ?? "0"),
                         horario.RutaId,
@@ -107,6 +107,7 @@ namespace MVC.Ferroviaria.Controllers
                 }
                 else if (data.Clase.Equals("Preferencial"))
                 {
+                    BoletoPreferencial boletoPreferencial = new BoletoPreferencial();
                     ticket = boletoPreferencial.CrearBoleto(
                         int.Parse(User.FindFirst(ClaimTypes.NameIdentifier)?.Value ?? "0"),
                         horario.RutaId,

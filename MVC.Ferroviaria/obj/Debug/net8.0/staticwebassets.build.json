@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "sDBU7zKQNvR0bAzFsW2KQQ3vGxvnkA3/5BKhfQBHrGU=",
+  "Hash": "VBLaRryL5kz1keXfr/8dmwQffjdy8IGVSig9xXbWFnM=",
   "Source": "MVC.Ferroviaria",
   "BasePath": "_content/MVC.Ferroviaria",
   "Mode": "Default",
@@ -162,6 +162,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\fondo1.png"
+    },
+    {
+      "Identity": "C:\\Users\\user\\OneDrive\\Escritorio\\Sistema.Ferroviario\\MVC.Ferroviaria\\wwwroot\\img\\LogoPichincha.png",
+      "SourceId": "MVC.Ferroviaria",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\OneDrive\\Escritorio\\Sistema.Ferroviario\\MVC.Ferroviaria\\wwwroot\\",
+      "BasePath": "_content/MVC.Ferroviaria",
+      "RelativePath": "img/LogoPichincha#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xfraheqcd9",
+      "Integrity": "kw1s39a6k8vg1XJ/ZqIK02cRkf+nE9YbREBENHbhUyM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\LogoPichincha.png"
+    },
+    {
+      "Identity": "C:\\Users\\user\\OneDrive\\Escritorio\\Sistema.Ferroviario\\MVC.Ferroviaria\\wwwroot\\img\\vagon.png",
+      "SourceId": "MVC.Ferroviaria",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\OneDrive\\Escritorio\\Sistema.Ferroviario\\MVC.Ferroviaria\\wwwroot\\",
+      "BasePath": "_content/MVC.Ferroviaria",
+      "RelativePath": "img/vagon#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bcnxdmt9td",
+      "Integrity": "lbbaDNmBE1TtUfaHTfE7mgBpEpbojI1vkt6uz+1XuXM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\vagon.png"
     },
     {
       "Identity": "C:\\Users\\user\\OneDrive\\Escritorio\\Sistema.Ferroviario\\MVC.Ferroviaria\\wwwroot\\js\\site.js",
@@ -1380,90 +1422,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
-    },
-    {
-      "Identity": "C:\\Users\\user\\OneDrive\\Escritorio\\Sistema.Ferroviario\\MVC.Ferroviaria\\wwwroot\\uploads\\13ea7a55-7565-4c79-be17-415da710b64d_Captura de pantalla 2025-02-22 180832.png",
-      "SourceId": "MVC.Ferroviaria",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\OneDrive\\Escritorio\\Sistema.Ferroviario\\MVC.Ferroviaria\\wwwroot\\",
-      "BasePath": "_content/MVC.Ferroviaria",
-      "RelativePath": "uploads/13ea7a55-7565-4c79-be17-415da710b64d_Captura de pantalla 2025-02-22 180832#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "rorkwudfgk",
-      "Integrity": "1U6k/mXaAPGy1dC5zTgYquxKHE52SfzzwwM5+BJcaW0=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\13ea7a55-7565-4c79-be17-415da710b64d_Captura de pantalla 2025-02-22 180832.png"
-    },
-    {
-      "Identity": "C:\\Users\\user\\OneDrive\\Escritorio\\Sistema.Ferroviario\\MVC.Ferroviaria\\wwwroot\\uploads\\466c8bd0-4246-4eda-834f-ecba371c0445_Captura de pantalla 2025-02-22 180832.png",
-      "SourceId": "MVC.Ferroviaria",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\OneDrive\\Escritorio\\Sistema.Ferroviario\\MVC.Ferroviaria\\wwwroot\\",
-      "BasePath": "_content/MVC.Ferroviaria",
-      "RelativePath": "uploads/466c8bd0-4246-4eda-834f-ecba371c0445_Captura de pantalla 2025-02-22 180832#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "nilbzfxysx",
-      "Integrity": "r3DOEWzz7vtrlaD0e0B4Z3C25Da6ViGH6buxS1K8pok=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\466c8bd0-4246-4eda-834f-ecba371c0445_Captura de pantalla 2025-02-22 180832.png"
-    },
-    {
-      "Identity": "C:\\Users\\user\\OneDrive\\Escritorio\\Sistema.Ferroviario\\MVC.Ferroviaria\\wwwroot\\uploads\\4c3070ae-183c-4de5-9605-ae8d5eef58b8_Captura de pantalla 2025-02-23 112606.png",
-      "SourceId": "MVC.Ferroviaria",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\OneDrive\\Escritorio\\Sistema.Ferroviario\\MVC.Ferroviaria\\wwwroot\\",
-      "BasePath": "_content/MVC.Ferroviaria",
-      "RelativePath": "uploads/4c3070ae-183c-4de5-9605-ae8d5eef58b8_Captura de pantalla 2025-02-23 112606#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "6i41rswhx5",
-      "Integrity": "8geIorAgeNn9WV9I6HgTPaXt+FJ4yPp4Tsi8SBaLATo=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\4c3070ae-183c-4de5-9605-ae8d5eef58b8_Captura de pantalla 2025-02-23 112606.png"
-    },
-    {
-      "Identity": "C:\\Users\\user\\OneDrive\\Escritorio\\Sistema.Ferroviario\\MVC.Ferroviaria\\wwwroot\\uploads\\cdf18dd5-4827-4b98-8804-5c1b2a6f91fb_Captura de pantalla 2025-02-22 180832.png",
-      "SourceId": "MVC.Ferroviaria",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\OneDrive\\Escritorio\\Sistema.Ferroviario\\MVC.Ferroviaria\\wwwroot\\",
-      "BasePath": "_content/MVC.Ferroviaria",
-      "RelativePath": "uploads/cdf18dd5-4827-4b98-8804-5c1b2a6f91fb_Captura de pantalla 2025-02-22 180832#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "nilbzfxysx",
-      "Integrity": "r3DOEWzz7vtrlaD0e0B4Z3C25Da6ViGH6buxS1K8pok=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\cdf18dd5-4827-4b98-8804-5c1b2a6f91fb_Captura de pantalla 2025-02-22 180832.png"
     }
   ],
   "Endpoints": [
@@ -1874,6 +1832,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-ijuJJQMtS2Z0Jb4awG7/dJbwWCBwpiQHbBD4Lg1J+bc="
+        }
+      ]
+    },
+    {
+      "Route": "img/LogoPichincha.png",
+      "AssetFile": "C:\\Users\\user\\OneDrive\\Escritorio\\Sistema.Ferroviario\\MVC.Ferroviaria\\wwwroot\\img\\LogoPichincha.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7781"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kw1s39a6k8vg1XJ/ZqIK02cRkf+nE9YbREBENHbhUyM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Jun 2025 16:24:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kw1s39a6k8vg1XJ/ZqIK02cRkf+nE9YbREBENHbhUyM="
+        }
+      ]
+    },
+    {
+      "Route": "img/LogoPichincha.xfraheqcd9.png",
+      "AssetFile": "C:\\Users\\user\\OneDrive\\Escritorio\\Sistema.Ferroviario\\MVC.Ferroviaria\\wwwroot\\img\\LogoPichincha.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7781"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kw1s39a6k8vg1XJ/ZqIK02cRkf+nE9YbREBENHbhUyM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Jun 2025 16:24:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xfraheqcd9"
+        },
+        {
+          "Name": "label",
+          "Value": "img/LogoPichincha.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kw1s39a6k8vg1XJ/ZqIK02cRkf+nE9YbREBENHbhUyM="
+        }
+      ]
+    },
+    {
+      "Route": "img/vagon.bcnxdmt9td.png",
+      "AssetFile": "C:\\Users\\user\\OneDrive\\Escritorio\\Sistema.Ferroviario\\MVC.Ferroviaria\\wwwroot\\img\\vagon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "553036"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lbbaDNmBE1TtUfaHTfE7mgBpEpbojI1vkt6uz+1XuXM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Jun 2025 16:42:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bcnxdmt9td"
+        },
+        {
+          "Name": "label",
+          "Value": "img/vagon.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lbbaDNmBE1TtUfaHTfE7mgBpEpbojI1vkt6uz+1XuXM="
+        }
+      ]
+    },
+    {
+      "Route": "img/vagon.png",
+      "AssetFile": "C:\\Users\\user\\OneDrive\\Escritorio\\Sistema.Ferroviario\\MVC.Ferroviaria\\wwwroot\\img\\vagon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "553036"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lbbaDNmBE1TtUfaHTfE7mgBpEpbojI1vkt6uz+1XuXM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Jun 2025 16:42:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lbbaDNmBE1TtUfaHTfE7mgBpEpbojI1vkt6uz+1XuXM="
         }
       ]
     },
@@ -6794,334 +6916,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-PAZCAHMvg62xXajCpS/9MPbbi7JlZkv6fsok9UHhzSw="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/13ea7a55-7565-4c79-be17-415da710b64d_Captura de pantalla 2025-02-22 180832.png",
-      "AssetFile": "C:\\Users\\user\\OneDrive\\Escritorio\\Sistema.Ferroviario\\MVC.Ferroviaria\\wwwroot\\uploads\\13ea7a55-7565-4c79-be17-415da710b64d_Captura de pantalla 2025-02-22 180832.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "864247"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"1U6k/mXaAPGy1dC5zTgYquxKHE52SfzzwwM5+BJcaW0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 26 Jun 2025 14:18:05 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-1U6k/mXaAPGy1dC5zTgYquxKHE52SfzzwwM5+BJcaW0="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/13ea7a55-7565-4c79-be17-415da710b64d_Captura de pantalla 2025-02-22 180832.rorkwudfgk.png",
-      "AssetFile": "C:\\Users\\user\\OneDrive\\Escritorio\\Sistema.Ferroviario\\MVC.Ferroviaria\\wwwroot\\uploads\\13ea7a55-7565-4c79-be17-415da710b64d_Captura de pantalla 2025-02-22 180832.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "864247"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"1U6k/mXaAPGy1dC5zTgYquxKHE52SfzzwwM5+BJcaW0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 26 Jun 2025 14:18:05 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "rorkwudfgk"
-        },
-        {
-          "Name": "label",
-          "Value": "uploads/13ea7a55-7565-4c79-be17-415da710b64d_Captura de pantalla 2025-02-22 180832.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-1U6k/mXaAPGy1dC5zTgYquxKHE52SfzzwwM5+BJcaW0="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/466c8bd0-4246-4eda-834f-ecba371c0445_Captura de pantalla 2025-02-22 180832.nilbzfxysx.png",
-      "AssetFile": "C:\\Users\\user\\OneDrive\\Escritorio\\Sistema.Ferroviario\\MVC.Ferroviaria\\wwwroot\\uploads\\466c8bd0-4246-4eda-834f-ecba371c0445_Captura de pantalla 2025-02-22 180832.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "131072"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"r3DOEWzz7vtrlaD0e0B4Z3C25Da6ViGH6buxS1K8pok=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 26 Jun 2025 14:18:05 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "nilbzfxysx"
-        },
-        {
-          "Name": "label",
-          "Value": "uploads/466c8bd0-4246-4eda-834f-ecba371c0445_Captura de pantalla 2025-02-22 180832.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-r3DOEWzz7vtrlaD0e0B4Z3C25Da6ViGH6buxS1K8pok="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/466c8bd0-4246-4eda-834f-ecba371c0445_Captura de pantalla 2025-02-22 180832.png",
-      "AssetFile": "C:\\Users\\user\\OneDrive\\Escritorio\\Sistema.Ferroviario\\MVC.Ferroviaria\\wwwroot\\uploads\\466c8bd0-4246-4eda-834f-ecba371c0445_Captura de pantalla 2025-02-22 180832.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "131072"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"r3DOEWzz7vtrlaD0e0B4Z3C25Da6ViGH6buxS1K8pok=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 26 Jun 2025 14:18:05 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-r3DOEWzz7vtrlaD0e0B4Z3C25Da6ViGH6buxS1K8pok="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/4c3070ae-183c-4de5-9605-ae8d5eef58b8_Captura de pantalla 2025-02-23 112606.6i41rswhx5.png",
-      "AssetFile": "C:\\Users\\user\\OneDrive\\Escritorio\\Sistema.Ferroviario\\MVC.Ferroviaria\\wwwroot\\uploads\\4c3070ae-183c-4de5-9605-ae8d5eef58b8_Captura de pantalla 2025-02-23 112606.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "91221"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"8geIorAgeNn9WV9I6HgTPaXt+FJ4yPp4Tsi8SBaLATo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 26 Jun 2025 15:08:05 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "6i41rswhx5"
-        },
-        {
-          "Name": "label",
-          "Value": "uploads/4c3070ae-183c-4de5-9605-ae8d5eef58b8_Captura de pantalla 2025-02-23 112606.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-8geIorAgeNn9WV9I6HgTPaXt+FJ4yPp4Tsi8SBaLATo="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/4c3070ae-183c-4de5-9605-ae8d5eef58b8_Captura de pantalla 2025-02-23 112606.png",
-      "AssetFile": "C:\\Users\\user\\OneDrive\\Escritorio\\Sistema.Ferroviario\\MVC.Ferroviaria\\wwwroot\\uploads\\4c3070ae-183c-4de5-9605-ae8d5eef58b8_Captura de pantalla 2025-02-23 112606.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "91221"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"8geIorAgeNn9WV9I6HgTPaXt+FJ4yPp4Tsi8SBaLATo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 26 Jun 2025 15:08:05 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-8geIorAgeNn9WV9I6HgTPaXt+FJ4yPp4Tsi8SBaLATo="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/cdf18dd5-4827-4b98-8804-5c1b2a6f91fb_Captura de pantalla 2025-02-22 180832.nilbzfxysx.png",
-      "AssetFile": "C:\\Users\\user\\OneDrive\\Escritorio\\Sistema.Ferroviario\\MVC.Ferroviaria\\wwwroot\\uploads\\cdf18dd5-4827-4b98-8804-5c1b2a6f91fb_Captura de pantalla 2025-02-22 180832.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "131072"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"r3DOEWzz7vtrlaD0e0B4Z3C25Da6ViGH6buxS1K8pok=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 26 Jun 2025 14:18:05 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "nilbzfxysx"
-        },
-        {
-          "Name": "label",
-          "Value": "uploads/cdf18dd5-4827-4b98-8804-5c1b2a6f91fb_Captura de pantalla 2025-02-22 180832.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-r3DOEWzz7vtrlaD0e0B4Z3C25Da6ViGH6buxS1K8pok="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/cdf18dd5-4827-4b98-8804-5c1b2a6f91fb_Captura de pantalla 2025-02-22 180832.png",
-      "AssetFile": "C:\\Users\\user\\OneDrive\\Escritorio\\Sistema.Ferroviario\\MVC.Ferroviaria\\wwwroot\\uploads\\cdf18dd5-4827-4b98-8804-5c1b2a6f91fb_Captura de pantalla 2025-02-22 180832.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "131072"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"r3DOEWzz7vtrlaD0e0B4Z3C25Da6ViGH6buxS1K8pok=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 26 Jun 2025 14:18:05 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-r3DOEWzz7vtrlaD0e0B4Z3C25Da6ViGH6buxS1K8pok="
         }
       ]
     }

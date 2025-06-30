@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ferroviaria.Consumer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4d4b41aaa48bad0e6864a502726f76b4daad0552")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ferroviaria.Consumer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ferroviaria.Consumer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

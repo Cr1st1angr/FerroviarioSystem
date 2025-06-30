@@ -1,6 +1,35 @@
-﻿
-<form asp-action="UploadReceipt" method="post" enctype="multipart/form-data">
-    <input type="hidden" name="ticketId" value="@ViewBag.TicketId" />
-    <input type="file" name="receiptFile" accept="image/*" required />
-    <button type="submit">Subir Recibo</button>
-</form>
+﻿<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-lg rounded">
+                <div class="card-header text-center bg-primary text-white">
+                    <h4 class="mb-0">Subir Recibo de Pago</h4>
+                </div>
+                <div class="card-body">
+                    <!-- Información de cuenta -->
+                    <div class="alert alert-info mb-4">
+                        <h6 class="fw-bold mb-2">Datos de la cuenta de destino:</h6>
+                        <img src="/img/LogoPichincha.png" alt="imagen" style="position: absolute; top: 10px; right: 10px; width: 40px; height: auto;" />
+                        <p class="mb-1"><strong>Nro de cuenta:</strong> 2210392153</p>
+                        <p class="mb-1"><strong>Nombre Propietario:</strong> HAROL JOSHUE ZAMBRANO IPIALES</p>
+                        <p class="mb-0"><strong>Banco Pichincha</strong></p>
+                    </div>
+
+                    <!-- Formulario -->
+                    <form asp-action="UploadReceipt" method="post" enctype="multipart/form-data">
+                        <input type="hidden" name="ticketId" value="@ViewBag.TicketId" />
+
+                        <div class="mb-3">
+                            <label for="receiptFile" class="form-label">Seleccionar imagen del recibo</label>
+                            <input class="form-control" type="file" name="receiptFile" accept="image/*" id="receiptFile" required>
+                        </div>
+
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-success">Subir Recibo</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

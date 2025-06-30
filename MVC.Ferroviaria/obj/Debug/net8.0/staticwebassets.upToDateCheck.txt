@@ -3,6 +3,8 @@ wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\img\fondo.png
 wwwroot\img\fondo1.png
+wwwroot\img\LogoPichincha.png
+wwwroot\img\vagon.png
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
@@ -61,7 +63,3 @@ wwwroot\lib\jquery-validation\LICENSE.md
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
-wwwroot\uploads\13ea7a55-7565-4c79-be17-415da710b64d_Captura de pantalla 2025-02-22 180832.png
-wwwroot\uploads\466c8bd0-4246-4eda-834f-ecba371c0445_Captura de pantalla 2025-02-22 180832.png
-wwwroot\uploads\4c3070ae-183c-4de5-9605-ae8d5eef58b8_Captura de pantalla 2025-02-23 112606.png
-wwwroot\uploads\cdf18dd5-4827-4b98-8804-5c1b2a6f91fb_Captura de pantalla 2025-02-22 180832.png

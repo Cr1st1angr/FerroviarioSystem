@@ -17,12 +17,20 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\user\\OneDrive\\Escritorio\\Sistema.Ferroviario\\MVC.Ferroviaria\\wwwroot\\img\\LogoPichincha.png",
+      "PackagePath": "staticwebassets\\img\\LogoPichincha.png"
+    },
+    {
       "Id": "C:\\Users\\user\\OneDrive\\Escritorio\\Sistema.Ferroviario\\MVC.Ferroviaria\\wwwroot\\img\\fondo.png",
       "PackagePath": "staticwebassets\\img\\fondo.png"
     },
     {
       "Id": "C:\\Users\\user\\OneDrive\\Escritorio\\Sistema.Ferroviario\\MVC.Ferroviaria\\wwwroot\\img\\fondo1.png",
       "PackagePath": "staticwebassets\\img\\fondo1.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Escritorio\\Sistema.Ferroviario\\MVC.Ferroviaria\\wwwroot\\img\\vagon.png",
+      "PackagePath": "staticwebassets\\img\\vagon.png"
     },
     {
       "Id": "C:\\Users\\user\\OneDrive\\Escritorio\\Sistema.Ferroviario\\MVC.Ferroviaria\\wwwroot\\js\\site.js",
@@ -255,22 +263,6 @@
     {
       "Id": "C:\\Users\\user\\OneDrive\\Escritorio\\Sistema.Ferroviario\\MVC.Ferroviaria\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
-    },
-    {
-      "Id": "C:\\Users\\user\\OneDrive\\Escritorio\\Sistema.Ferroviario\\MVC.Ferroviaria\\wwwroot\\uploads\\13ea7a55-7565-4c79-be17-415da710b64d_Captura de pantalla 2025-02-22 180832.png",
-      "PackagePath": "staticwebassets\\uploads\\13ea7a55-7565-4c79-be17-415da710b64d_Captura de pantalla 2025-02-22 180832.png"
-    },
-    {
-      "Id": "C:\\Users\\user\\OneDrive\\Escritorio\\Sistema.Ferroviario\\MVC.Ferroviaria\\wwwroot\\uploads\\466c8bd0-4246-4eda-834f-ecba371c0445_Captura de pantalla 2025-02-22 180832.png",
-      "PackagePath": "staticwebassets\\uploads\\466c8bd0-4246-4eda-834f-ecba371c0445_Captura de pantalla 2025-02-22 180832.png"
-    },
-    {
-      "Id": "C:\\Users\\user\\OneDrive\\Escritorio\\Sistema.Ferroviario\\MVC.Ferroviaria\\wwwroot\\uploads\\4c3070ae-183c-4de5-9605-ae8d5eef58b8_Captura de pantalla 2025-02-23 112606.png",
-      "PackagePath": "staticwebassets\\uploads\\4c3070ae-183c-4de5-9605-ae8d5eef58b8_Captura de pantalla 2025-02-23 112606.png"
-    },
-    {
-      "Id": "C:\\Users\\user\\OneDrive\\Escritorio\\Sistema.Ferroviario\\MVC.Ferroviaria\\wwwroot\\uploads\\cdf18dd5-4827-4b98-8804-5c1b2a6f91fb_Captura de pantalla 2025-02-22 180832.png",
-      "PackagePath": "staticwebassets\\uploads\\cdf18dd5-4827-4b98-8804-5c1b2a6f91fb_Captura de pantalla 2025-02-22 180832.png"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MVC.Ferroviaria.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

@@ -1,56 +1,58 @@
 ﻿@model IEnumerable<Modelos.Ferroviario.Modelos.TrainCar>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Vagones Disponibles";
+    var vagones = Model.ToList();
 }
 
 <h1>Vagones Disponibles</h1>
 
-<table class="table">
-    <thead>
+<table class="table table-bordered">
+    <thead class="table-primary">
         <tr>
-
-            <th>
-                @Html.DisplayNameFor(model => model.CantidadAsientos)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Tipo)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Estado)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Tren)
-            </th>
-            <th></th>
+            <th>@Html.DisplayNameFor(model => model.First().CantidadAsientos)</th>
+            <th>@Html.DisplayNameFor(model => model.First().Tipo)</th>
+            <th>@Html.DisplayNameFor(model => model.First().Estado)</th>
+            <th>@Html.DisplayNameFor(model => model.First().Tren)</th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.CantidadAsientos)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Tipo)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Estado)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Tren.Nombre)
-            </td>
-            <td>
-                @Html.ActionLink("Ver Asientos", "Index","Seat", new { id= item.Id }) |
-
-            </td>
-        </tr>
-}
+        @foreach (var item in vagones)
+        {
+            <tr>
+                <td>@item.CantidadAsientos</td>
+                <td>@item.Tipo</td>
+                <td>@item.Estado</td>
+                <td>@item.Tren?.Nombre</td>
+            </tr>
+        }
     </tbody>
 </table>
+
+<hr />
+
+<h4>Selecciona un vagón para continuar:</h4>
+
+<div class="d-flex flex-wrap gap-4">
+    @for (int i = 0; i < vagones.Count; i++)
+    {
+        <div class="text-center">
+            <a asp-controller="Seat"
+               asp-action="Index"
+               asp-route-id="@vagones[i].Id">
+                <img src="~/img/vagon.png"
+                     alt="Vagón @(i + 1)"
+                     style="width:150px; height:auto;"
+                     class="img-thumbnail" />
+            </a>
+            <p class="mt-2 fw-bold">Vagón @(i + 1)</p>
+        </div>
+    }
+</div>
+
 @if (ViewBag.Mensaje != null)
 {
-    <div class="alert alert-success">
+    <div class="alert alert-success mt-3">
         @ViewBag.Mensaje
     </div>
 }
